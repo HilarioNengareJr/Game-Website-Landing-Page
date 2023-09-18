@@ -1,0 +1,30 @@
+.hero-banner {
+    display: none;
+}
+
+.hero {
+    --section-padding: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+.hero-subtitle {
+    color: var(--marigold);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-700);
+    text-transform: uppercase;
+}
+
+.hero-title {
+    margin-block: 15px 12px;
+}
+
+.hero-text {
+    color: var(--light-gray-2);
+    margin-block-end: 45px;
+}

@@ -1,0 +1,21 @@
+.brand {
+    --section-padding: 60px;
+    background-image: var(--gradient);
+}
+
+.brand .has-scrollbar {
+    padding-block-end: 0;
+}
+
+.brand .has-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.brand-item {
+    min-width: calc(50% - 10px);
+    scroll-snap-align: start;
+}
+
+.brand-item>img {
+    margin-inline: auto;
+}
