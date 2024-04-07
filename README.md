@@ -48,9 +48,6 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 1. Fork the repository and create your branch:
 
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
 
 2. Commit your changes:
 
